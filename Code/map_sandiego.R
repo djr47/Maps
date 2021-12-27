@@ -4,7 +4,9 @@ library(sf)
 library(extrafont)
 
 ## Get coordinate functions and theme
-source('C:/Users/djr47/Desktop/Maps/map_functions_and_theme.R')## Get Data =============================================================
+source('C:/Users/djr47/Desktop/Maps/Code/map_functions_and_theme.R')
+
+## Get Data =============================================================
 
 Center_SD <- c(32.7137, -117.1621)
 
@@ -153,4 +155,4 @@ ggplot() +
   theme(panel.background = element_rect(fill = water_color_dark)) +
   labs(title = "san diego")
 
-ggsave('SD.png', width = 7, height = 7, units = 'in')
+ggsave('Code/SD.png', width = 7, height = 7, units = 'in')
