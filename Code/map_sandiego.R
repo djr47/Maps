@@ -155,4 +155,4 @@ ggplot() +
   theme(panel.background = element_rect(fill = water_color_dark)) +
   labs(title = "san diego")
 
-ggsave('Code/SD.png', width = 7, height = 7, units = 'in')
+ggsave('Output/SD.png', width = 7, height = 7, units = 'in')
